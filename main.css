@@ -1,0 +1,80 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.blueheader {
+  background: #1c5380;
+  padding: 13%;
+  height: auto;
+  width: 100%;
+  position: fixed;
+}
+
+.insta {
+  float: right;
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 26px;
+  right: 100px;
+  width: 43%;
+}
+
+.homebutton {
+  /* float: right; */
+  padding-right: 10px;
+  position: absolute;
+  display: inline-block;
+  right: 380px;
+}
+
+.login {
+  float: right;
+  font-family: inherit;
+  color: white;
+  z-index: 200;
+  position: absolute;
+  right: 340px;
+}
+
+.mainbody {
+  position:relative;
+}
+
+.frame {
+  position: absolute;
+  display: inline-block;
+  z-index: 10;
+  bottom: 100px;
+  right: 50px
+
+}
+
+.mainbody {
+  z-index: 11;
+  position: absolute;
+  bottom: 47px;
+  right: 83px;
+  display: inline-block;
+  max-width: 30%;
+}
+
+.phones {
+    position: absolute;
+    z-index: 100;
+    left: 100px;
+    top: 350px
+  }
+
+footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: -200px
+  }
